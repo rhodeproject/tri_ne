@@ -32,4 +32,10 @@ $(document).ready(function(){
         $('#leadership').hide();
         $('#sponsors').fadeIn();
     });
+
+    $("#sponsors_cycle").cycle({
+        fx: 'fade',
+        speed: '2500',
+        timeout: '1000'
+    });
 });
