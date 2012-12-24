@@ -1,0 +1,69 @@
+Messages:
+  welcome: The Triathlon Club of New England (Tri-NE) was established in 2010 to serve
+          the growing population of multi-sport athletes in Rhode Island and Southeastern
+          Massachusetts and create a community of teamwork, support and training for beginner
+          to intermediate triathletes.
+  membership: If you are interested in becoming a member of a thriving triathlon community? If so, come join us!
+
+Events:
+  Swim Clinic: Jan 1. @ McDermot Pool
+  Run Clinic: Feb 2. @ Rhode Runner
+  Bike Clinic: March 5 @ TriFit Lab
+  Club Race - Patriot 1/2 Iron: June 15
+  Club Race - TDD: September 18 in Douglas, MA
+
+
+
+officers:
+  President: Tara Comer
+  Vice President: Jon Lameroux
+  Treasurer: Cassandra Walsh
+  Secretary: Tyler Ray
+directors:
+  dir1: Kevan Hauver
+  dir2: Kellie Armstrong
+  dir3: John Cullinane
+  dir4: Matthew Hatch
+
+#temp officers
+President:
+  name: Tara Comer
+  bio: place holder for BIO informaiton
+  image: tara.jpg
+
+Vice President:
+  name: Jon Lameroux
+  bio: place holder for BIO informaiton
+  image: jon.jpg
+
+Treasurer:
+  name: Cass Walsh
+  bio: place holder for BIO informaiton
+  image: cass.jpg
+
+Secretary:
+  name: Tyler Ray
+  bio: place holder for BIO informaiton
+  image: tyler.jpg
+
+Dir1:
+  name: Kevan Hauver
+  bio: place holder for BIO
+  image:
+
+Dir2:
+  name: Kellie Armstrong
+  bio: place holder for BIO
+  image:
+
+Dir3:
+ name: John Cullinane
+ bio: place holder for BIO
+ image:
+
+Dir4:
+ name: Matt Hatch
+ bio: Matt has been a runner for over 10 years and has completed 13 marathons.  He started competing in triathlons in
+      2010 and has completed sprints, olympics, half-iron, and an ironman.
+ image:
+

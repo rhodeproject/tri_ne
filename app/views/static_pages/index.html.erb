@@ -12,6 +12,8 @@
     <div class="span10" id="home">
         <%= render 'home' %>
     </div>
-    <div class="span10" id="leadership"><%= render 'leadership' %></div>
+    <div class="span10" id="leadership">
+      <%= render 'leadership', :officers => @officers %>
+    </div>
     <div class="span10" id="sponsors"><%= render 'sponsors' %></div>
 </div>

@@ -1,16 +1,9 @@
 $(document).ready(function(){
-    $('#rp').click(function(){
-        window.open('https://www.rhodeproject.com');
-    });
+
     $('#leadership').hide();
     $('#home').fadeIn();
     $('#members').hide();
     $('#sponsors').hide();
-
-
-    $('#navMembers').click(function(){
-        window.open('http://www.rhodeproject.com');
-    });
 
     $('#navHome').click(function(){
         $('#members').hide();
