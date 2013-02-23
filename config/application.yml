@@ -6,6 +6,7 @@ Messages:
   membership: If you are interested in becoming a member of a thriving triathlon community? If so, come join us!
 
 Events:
+  Triathlon 101: Monday February 25th, 5:30 PM, Rhode Runner in Providence
   Swim Clinic: TBD
   Run Clinic: TBD
   Bike Clinic: TBD
@@ -25,42 +26,59 @@ directors:
 #temp officers
 President:
   name: Tara Comer
-  bio: place holder for BIO informaiton
+  bio: USAT Certified Coach and ERYT 500hr Yoga Teacher, Tara S. Comer is an athlete, a coach and a leader working toward building community, camaraderie and safety in the triathlon community. She has been an endurance athlete for over 15 years competing in triathlons and endurance events across the country, long before there were one piece tri suits, body glide and power meters.
+
+       In addition to serving on the Tri NE leadership board and co-leading the club’s clinics, Tara runs Tri Kula Coaching (www.trikulacoaching.com), a coaching service specializing in Sprint, Olympic, Half-IM distances and Calm Water Swim Programs for beginner triathletes.
+
+       Tara believes she has a responsibility to use her training and experience toward the public good, and is always seeking new opportunities to make a difference in her local and national communities.  In the past year, she has become an influential member of the USAT Women’s Committee whose focus is on creating a resource for female athletes of all levels and socio-economic backgrounds by mentoring professional growth for women in
+       the sport.
+
+       “The sport of triathlon has changed and enhanced my life in so many ways.
+       From the early days fueling me with inspiration to perform to my highest
+       potential, to the friendships developed with training partners and
+       competitors, and now as a coach to be part of an athlete journey to
+       achieving their goals and dreams….I feel so lucky and blessed to be part
+       of this amazing sport”. –Tara Comer
   image: tara.jpg
 
 Vice President:
   name: Jon Lameroux
-  bio: place holder for BIO informaiton
+  bio: Jon did his first sprint triathlon in July 2006 shortly after joining the Central Florida Triathlon club in Orlando, FL. This experience was life changing and Jon began his journey into the sport of triathlon. He developed in the sport with the mentoring of a head coach and the support from his fellow club members. Jon now is a USAT Level I Certified Coach and races both long and short courses with emphasis on the Half Ironman distance. Jon recently moved back to the southern Rhode Island area and brings to Tri-NE a wealth of knowledge, experience, and great enthusiasm for the sport. Jon demonstrates that amazing triathlon achievements are possible even for very busy people who have work, families, and other responsibilities. Jon strongly believes that the very challenge of fitting this sport in with everything else in life can result in a higher level of performance in all areas.
   image: jon.jpg
 
 Treasurer:
   name: Cass Walsh
-  bio: place holder for BIO informaiton
+  bio: Cass’ goal was to start a club and construct a network for people in Providence area who are interested in swimming, running, and cycling. Cass has completed Sprint and Olympic distance triathlons in the past and is training for her first Half Iron Distance triathlon in 2011. Cass is thrilled to be back training after a long period of undiagnosed lyme disease. The concept for the Tri-NE Club came from her desire to find others with whom to train & share information. Cass describes herself as committed to improving her performance through more structured and mindful training. Cass is excited about the Tri NE community and looks forward to training, racing, and having a blast with members of Tri-NE!
   image: cass.jpg
 
 Secretary:
   name: Tyler Ray
-  bio: place holder for BIO informaiton
+  bio: Tyler joined the Tri-NE Board in 2012 and serves as Secretary. Tyler is an avid outdoor athlete committed to endurance-related sports. Looking for more ways to train after years of running marathons and mountain biking, Tyler decided to step outside his comfort zone and take on swimming and road cycling in 2011. Immediately, Tyler was hooked on the complexities of triathlon and has successfully completed several half-ironman distance events. Tyler is training for Ironman Lake Placid in 2013.
+       In the off-season, Tyler is an experienced backcountry skier and spends his time checking his heart rate before dropping into the steep and deep. Tyler is married to his wife Anne and they live on the East Side in Providence, RI.
   image: tyler.jpg
 
 Dir1:
   name: Kevan Hauver
-  bio: place holder for BIO
+  bio:
   image:
 
 Dir2:
   name: Kellie Armstrong
-  bio: place holder for BIO
+  bio:
   image:
 
 Dir3:
  name: John Cullinane
- bio: place holder for BIO
+ bio:
  image:
 
 Dir4:
  name: Matt Hatch
  bio: Matt has been a runner for over 10 years and has completed 13 marathons.  He started competing in triathlons in
-      2010 and has completed sprints, olympics, half-iron, and an ironman.
+      2010 and has completed sprints, olympics, half-iron, and an ironman. Matt joined the board in 2012.
  image:
+Dir5:
+  name: Norine
+  bio:
+  image:
 
