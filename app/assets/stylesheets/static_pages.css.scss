@@ -173,4 +173,15 @@ hr.style-four {
   padding:0.1em 1.5em;
   position:relative;
 }
+img.floatleft{
+  float: left;
+  margin: 4px;
+  height: 100px;
+  width: 100px;
+}
+
+img.main{
+  max-height: 100;
+  max-width: 100;
+}
 

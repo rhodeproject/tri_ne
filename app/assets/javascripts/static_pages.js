@@ -31,4 +31,10 @@ $(document).ready(function(){
         speed: '2500',
         timeout: '1000'
     });
+
+    $("#main_page_cycle").cycle({
+        fx: 'fade',
+        speed: '2500',
+        timeout: '1000'
+    })
 });

@@ -1,36 +1,39 @@
 <h4>Club Leaders</h4>
 <hr class="style-four">
 <h5><%= @yaml['President']['name'] %> - President</h5><br>
-<%= @yaml['President']['bio'] %>
+<img class="floatleft" src=<%= @yaml['President']['image'] %>/>
+<%= markdown.render(@yaml['President']['bio']).html_safe %>
 <hr>
 
 <h5><%= @yaml['Vice President']['name'] %> - Vice President</h5><br>
-<%= @yaml['Vice President']['bio'] %>
+<img class="floatleft" src=<%= @yaml['Vice President']['image'] %>/>
+<%= markdown.render(@yaml['Vice President']['bio']).html_safe %>
 <hr>
 
 <h5><%= @yaml['Treasurer']['name'] %> - Treasurer</h5><br>
-<%= @yaml['Treasurer']['bio'] %>
+<img class="floatleft" src=<%= @yaml['Treasurer']['image'] %>/>
+<%= markdown.render(@yaml['Treasurer']['bio']).html_safe %>
 <hr>
 
 <h5><%= @yaml['Secretary']['name'] %> - Secretary</h5><br>
-<%= @yaml['Secretary']['bio'] %>
+<img class="floatleft" src=<%= @yaml['Secretary']['image'] %>/>
+<%= markdown.render(@yaml['Secretary']['bio']).html_safe %>
 <hr>
 
 <h5><%= @yaml['Dir1']['name'] %></h5><br>
-<%= @yaml['Dir1']['bio'] %>
+<%= markdown.render(@yaml['Dir1']['bio']).html_safe %>
 <hr>
 
 <h5><%= @yaml['Dir2']['name'] %></h5><br>
-<%= @yaml['Dir2']['bio'] %>
+<%= markdown.render(@yaml['Dir2']['bio']).html_safe %>
 <hr>
 
 <h5><%= @yaml['Dir3']['name'] %></h5><br>
-<%= @yaml['Dir3']['bio'] %>
+<%= markdown.render(@yaml['Dir3']['bio']).html_safe %>
 <hr>
 
 <h5><%= @yaml['Dir4']['name'] %></h5><br>
-<%= @yaml['Dir4']['bio'] %>
-<hr>
+<%= markdown.render(@yaml['Dir4']['bio']).html_safe %>
 
-
-
+<h5><%= @yaml['Dir5']['name'] %></h5><br>
+<%= markdown.render(@yaml['Dir5']['bio']).html_safe %>
