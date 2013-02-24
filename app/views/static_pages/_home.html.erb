@@ -5,19 +5,32 @@
 <p>
   <%= @yaml['Messages']['welcome'] %>
 </p>
-Here are some upcoming events:<br>
-<ul>
-  <% @yaml['Events'].each do |name, desc| %>
-    <li><%= name %> - <%= desc %></li>
-  <% end %>
-</ul>
+<div class="span6 offset2" id="main_page_cycle">
+  <img src="/assets/patriot_2012.jpg"/>
+  <img src="/assets/amica_703.jpg"/>
+  <img src="/assets/firm_2010.jpg"/>
+</div>
+<div class="span10">
+  <hr class="style-four">
+  Here are some upcoming events:<br>
+  <ul>
+    <% @yaml['Events'].each do |name, desc| %>
+        <li><%= name %> - <%= desc %></li>
+    <% end %>
+  </ul>
 
-<hr class="style-four">
-<div class="container">
-  <%= @yaml['Messages']['membership'] %>
 </div>
-<br>
+
+
 <div class="container">
-  <a href="https://tri-ne.rhodeproject.com/" class="btn btn-primary">Become a Member</a>
+
+  <div class="span10">
+    <br>
+    <div class="container">
+      <a href="https://tri-ne.rhodeproject.com/" class="btn btn-primary">Become a Member</a>
+    </div>
+  </div>
+
 </div>
+
 
