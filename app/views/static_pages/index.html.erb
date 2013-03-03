@@ -1,19 +1,24 @@
 
 <div class="row">
   <aside  class="span3">
-    <section><h3>Sponsors</h3><br>
-      <div class="span3" id="sponsors_cycle">
-        <img src="/assets/fp.JPG"/>
-        <img src="/assets/nancy.JPG"/>
-        <img src="/assets/provbike.jpg"/>
+    <section><br>
+      <div class="span3" id="sponsors_cycle1">
+        <img src="http://res.cloudinary.com/rhode-project/image/upload/c_scale,w_120/v1362083162/QRicon2_k2wmel.png"/>
+        <img src="http://res.cloudinary.com/rhode-project/image/upload/c_scale,w_225/v1362225602/Litespeedlogo_rsmglw.png"/>
+        <img src="http://res.cloudinary.com/rhode-project/image/upload/c_crop,h_90,w_190,x_0,y_14/v1362225135/image003_c6nb77.jpg"/>
       </div>
     </section>
   </aside>
-    <div class="span10" id="home">
+  <div class="span8">
+    <img src="/assets/tri-ne_banner.png"/>
+    <br>
+  </div>
+
+    <div class="span8 offset" id="home">
         <%= render 'home' %>
     </div>
-    <div class="span10" id="leadership">
+    <div class="span8 offset" id="leadership">
       <%= render 'leadership', :officers => @officers %>
     </div>
-    <div class="span10" id="sponsors"><%= render 'sponsors' %></div>
+    <div class="span8" id="sponsors"><%= render 'sponsors' %></div>
 </div>
