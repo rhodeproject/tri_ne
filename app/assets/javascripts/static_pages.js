@@ -36,5 +36,10 @@ $(document).ready(function(){
         fx: 'fade',
         speed: '2500',
         timeout: '1000'
-    })
+    });
+
+    $(".sponsorlink").click(function(){
+        window.open($(this).attr("alt"));
+        return false;
+    });
 });
