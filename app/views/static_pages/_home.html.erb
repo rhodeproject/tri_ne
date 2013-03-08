@@ -11,9 +11,13 @@
   <hr class="style-four">
   Here are some upcoming events:<br>
   <ul>
-    <% @yaml['Events'].each do |name, desc| %>
-        <li><%= name %> - <%= desc %></li>
+
+    <% @events.each do |event| %>
+        <% unless Date.strptime(event.summary).past? %>
+            <li><%= show_date(event.summary) %> -- <%= link_to event.title, event.url %></li>
+        <% end %>
     <% end %>
+
   </ul>
 
 </div>

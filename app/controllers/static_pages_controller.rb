@@ -9,6 +9,11 @@ class StaticPagesController < ApplicationController
     @officers = yaml['officers']
     @directors = yaml['directors']
     @yaml = yaml
+
+    feed = Feedzirra::Feed.fetch_and_parse('https://tri-ne.rhodeproject.com/events.atom')
+    @events = feed.entries
+
+
   end
 
 end

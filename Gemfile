@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'bootstrap-sass'
 gem 'redcarpet'
+gem 'feedzirra'
 
 group :development, :test do
   gem 'rspec-rails'
