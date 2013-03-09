@@ -13,6 +13,8 @@ class StaticPagesController < ApplicationController
     feed = Feedzirra::Feed.fetch_and_parse('https://tri-ne.rhodeproject.com/events.atom')
     @events = feed.entries
 
+    sponsor_feed = Feedzirra::Feed.fetch_and_parse("https://tri-ne.rhodeproject.com/sponsors.atom")
+    @sponsors = sponsor_feed.entries
 
   end
 
