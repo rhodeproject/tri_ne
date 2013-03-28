@@ -1,7 +1,10 @@
-
+<% begin %>
 <% @sponsors.each do |sponsor| %>
 
 
 <img src="<%= sponsor.author %>" class="sponsorlink" alt="<%= sponsor.summary %>">
+
+<% end %>
+<% rescue %>
 
 <% end %>
